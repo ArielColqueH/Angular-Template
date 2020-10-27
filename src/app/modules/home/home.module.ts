@@ -25,7 +25,6 @@ import { MatIconModule } from "@angular/material/icon";
     LayoutComponent,
     MainComponent,
     SidebarComponent,
-    MatButtonModule,
   ],
   imports: [
     CommonModule,
@@ -34,6 +33,7 @@ import { MatIconModule } from "@angular/material/icon";
     NoopAnimationsModule,
     MatSidenavModule,
     MatIconModule,
+    MatButtonModule,
   ],
 })
 export class HomeModule {}
