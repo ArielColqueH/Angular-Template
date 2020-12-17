@@ -1,1 +1,13 @@
-<p>sidebar works!</p>
+<mat-nav-list class="sidebar__list">
+  <div class="sidebar-brand">
+    <!-- <img [src]="mylogo" alt="medicalnowlogo" class="sidebar-brand__logo" /> -->
+    <span class="sidebar-brand__subtitle">Medicalnow</span>
+    <span class="sidebar-brand__subtitle sidebar-brand__subtitle--mini"
+      >Doctors</span
+    >
+  </div>
+  <a class="link" mat-list-item routerLinkActive="list-item-active-link">
+    <mat-icon class="link__icon">chat</mat-icon
+    ><span class="link__text">Consultas</span>
+  </a>
+</mat-nav-list>
