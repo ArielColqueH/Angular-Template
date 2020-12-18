@@ -1,18 +1,15 @@
 .link {
   border-radius: 3rem;
-  margin-bottom: 1rem;
-  color: $color-primary !important;
+  color: $color-primary-white !important;
   width: 100%;
-  //background-color: red;
+  background-color: $color-tertiary;
   &__icon {
-    //@include margin-left-right(1rem, 2rem);
+    @include margin-left-right(2rem, 2rem);
   }
 }
-.link:hover {
-  //transition: $transition-5;
-  transform: translateX(10px);
 
-  //color: $color-primary-blue !important;
+.link:hover {
+  transform: translateX(10px);
 }
 
 .list-item-active-link {

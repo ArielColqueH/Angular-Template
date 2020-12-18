@@ -7,7 +7,7 @@ import { LoginComponent } from "./../../modules/home/pages/login/login.component
 import { HomeComponent } from "./../../modules/home/pages/home/home.component";
 import { LayoutComponent } from "./../../layout/layout.component";
 import { MainComponent } from "./../../layout/main/main.component";
-import { SidebarComponent } from "./../../layout/sidebar/sidebar.component";
+import { SidenavComponent } from "./../../layout/sidenav/sidenav.component";
 import { BrowserModule } from "@angular/platform-browser";
 import { MatButtonModule } from "@angular/material/button";
 import { NoopAnimationsModule } from "@angular/platform-browser/animations";
@@ -15,6 +15,7 @@ import { RouterModule } from "@angular/router";
 import { MatIconModule } from "@angular/material/icon";
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatListModule } from "@angular/material/list";
+
 @NgModule({
   declarations: [
     HomeComponent,
@@ -24,7 +25,7 @@ import { MatListModule } from "@angular/material/list";
     LoginComponent,
     LayoutComponent,
     MainComponent,
-    SidebarComponent,
+    SidenavComponent,
   ],
   imports: [
     CommonModule,
