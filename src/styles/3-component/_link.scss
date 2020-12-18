@@ -1,0 +1,22 @@
+.link {
+  border-radius: 3rem;
+  margin-bottom: 1rem;
+  color: $color-primary !important;
+  width: 100%;
+  //background-color: red;
+  &__icon {
+    //@include margin-left-right(1rem, 2rem);
+  }
+}
+.link:hover {
+  //transition: $transition-5;
+  transform: translateX(10px);
+
+  //color: $color-primary-blue !important;
+}
+
+.list-item-active-link {
+  background-color: $color-primary !important;
+  color: $color-primary !important;
+  border-radius: 3rem;
+}
