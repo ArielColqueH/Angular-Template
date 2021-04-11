@@ -1,0 +1,15 @@
+.link {
+  border-radius: 3rem;
+  color: $color-primary-white !important;
+  background-color: $color-tertiary;
+}
+.link:hover {
+  //background-color: $color-tertiary !important;
+  transition: 0.5s;
+  transform: translateX(10px);
+}
+.list-item-active-link {
+  background-color: darken($color-tertiary, 15%);
+  color: $color-primary-white !important;
+  border-radius: 3rem;
+}
