@@ -1,10 +1,10 @@
-<mat-nav-list class="p-2">
+<mat-nav-list class="p-2 sidenav__content">
   <div class="sidenav-brand mb-2">
-    <img [src]="mylogo" alt="logo-example" class="sidenav-brand__logo" />
-    <span class="title__logo mt-1">Ice Cream</span>
+    <img [src]="isotipo" alt="logo-example" class="sidenav-brand__isotipo" />
+    <img [src]="logotipo" alt="logo-example" class="sidenav-brand__logotipo" />
   </div>
-  <a
-    class="link mb-1"
+  <div
+    class="link"
     mat-list-item
     (click)="irALink('dashboard')"
     routerLink="/dashboard"
@@ -12,25 +12,15 @@
   >
     <mat-icon class="link__icon mx-1">dashboard</mat-icon
     ><span class="link__text">Dashboard</span>
-  </a>
-  <a
-    class="link mb-1"
+  </div>
+  <div
+    class="link"
     mat-list-item
     (click)="irALink('tiendas')"
     routerLink="/tiendas"
     routerLinkActive="list-item-active-link"
   >
-    <mat-icon class="link__icon mx-1">store_mall_directory</mat-icon
-    ><span class="link__text">Tiendas</span>
-  </a>
-  <a
-    class="link mb-1"
-    mat-list-item
-    (click)="irALink('configuraciones')"
-    routerLink="/configuraciones"
-    routerLinkActive="list-item-active-link"
-  >
-    <mat-icon class="link__icon mx-1">settings</mat-icon
-    ><span class="link__text">Configuraciones</span>
-  </a>
+    <mat-icon class="link__icon mx-1">person</mat-icon
+    ><span class="link__text">Registro</span>
+  </div>
 </mat-nav-list>

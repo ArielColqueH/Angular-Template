@@ -1,10 +1,16 @@
 .sidenav {
-  background-color: $color-primary;
-  width: 25rem;
-  //box-shadow: 0px 5px 10px grey;
-  border-top-right-radius: 2rem;
-  border-bottom-right-radius: 2rem;
+  //background-color: $color-primary-white;
+  background-color: $color-primary-light-1;
+  width: 29rem;
+  &__content {
+    background-color: $color-primary-white !important;
+    border-radius: 2rem;
+    margin: 2rem;
+    height: calc(100vh - 4rem);
+    box-shadow: 0px 0px 5px 1px rgba(125, 125, 125, 0.25);
+  }
 }
+
 .sidenav-brand {
   height: 20rem;
   display: flex;
@@ -12,7 +18,11 @@
   align-items: center;
   justify-content: center;
   //background-color: orange;
-  &__logo {
+  &__isotipo {
     width: 11rem;
+    margin: 2.5rem;
+  }
+  &__logotipo {
+    width: 15rem;
   }
 }

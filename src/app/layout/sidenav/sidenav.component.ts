@@ -7,7 +7,8 @@ import { Router } from "@angular/router";
   styleUrls: ["./sidenav.component.scss"],
 })
 export class SidenavComponent implements OnInit {
-  mylogo: string = "assets/images/ice-cream.png";
+  isotipo: string = "assets/images/isotipo.svg";
+  logotipo: string = "assets/images/logotipo.svg";
   constructor(private router: Router) {}
 
   ngOnInit() {}
