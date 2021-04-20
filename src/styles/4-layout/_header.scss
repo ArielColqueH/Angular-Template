@@ -1,7 +1,7 @@
 .header {
-  margin: 2rem 10rem;
-  display: flex;
+  padding: 5rem 10rem !important;
   justify-content: space-between;
+  align-items: center;
   background-color: $color-primary-light-1;
   &__title {
     color: $color-primary-black;
