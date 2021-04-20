@@ -1,0 +1,8 @@
+.circular-button {
+  &--profile {
+    background-color: $color-primary !important;
+  }
+  &__letter {
+    font-size: 25;
+  }
+}

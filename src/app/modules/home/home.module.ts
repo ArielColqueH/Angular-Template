@@ -15,9 +15,10 @@ import { RouterModule } from "@angular/router";
 import { MatIconModule } from "@angular/material/icon";
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatListModule } from "@angular/material/list";
-import { DashboardComponent } from './pages/home/dashboard/dashboard.component';
-import { TiendasComponent } from './pages/home/tiendas/tiendas.component';
-import { ConfiguracionesComponent } from './pages/home/configuraciones/configuraciones.component';
+import { DashboardComponent } from "./pages/home/dashboard/dashboard.component";
+import { TiendasComponent } from "./pages/home/tiendas/tiendas.component";
+import { ConfiguracionesComponent } from "./pages/home/configuraciones/configuraciones.component";
+import { MatToolbarModule } from "@angular/material/toolbar";
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { ConfiguracionesComponent } from './pages/home/configuraciones/configura
     MatButtonModule,
     MatSidenavModule,
     MatListModule,
+    MatToolbarModule,
   ],
 })
 export class HomeModule {}

@@ -1,0 +1,12 @@
+.header {
+  margin: 2rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: $color-primary-light-1;
+  &__title {
+    color: $color-primary-black;
+    font-size: 30;
+    font-family: Quicksand;
+    font-weight: bold;
+  }
+}
